@@ -63,8 +63,8 @@ const about = {
         display: false
     },
     calendar: {
-        display: false,
-        link: 'https://cal.com'
+        display: true,
+        link: 'https://cal.com/dhruvhaldar'
     },
     intro: {
         display: true,
