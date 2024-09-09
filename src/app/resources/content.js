@@ -47,7 +47,7 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Aerospace Engineer | Optimization, CFD & Machine Learning Professional.</>,
+    headline: <>Aerospace Engineer, Optimization, CFD & Machine Learning Professional.</>,
     subline: <>I'm Dhruv, an Aerospace Engineer at <InlineCode>Sankhyasutra Labs</InlineCode>, designing CFD post-processing tools and custom Python modules, and testing with models like the Ahmed body, Eppler airfoil, and drivAer car.</>
 }
 
