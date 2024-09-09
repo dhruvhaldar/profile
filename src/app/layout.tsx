@@ -9,6 +9,8 @@ import { baseURL, effects, home, person, style } from '@/app/resources'
 
 import { Inter } from 'next/font/google'
 import { Source_Code_Pro } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
+
 
 import { Metadata } from "next";
 
@@ -37,11 +39,11 @@ export const metadata: Metadata = {
 	},
 }
 
-const primary = Inter({
-	variable: '--font-primary',
-	subsets: ['latin'],
-	display: 'swap',
-})
+const primary = Montserrat({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
 
 type FontConfig = {
     variable: string;
@@ -71,11 +73,14 @@ export default function RootLayout({ children } : RootLayoutProps) {
 		<Flex
 			as="html" lang="en"
 			background="page"
-			data-neutral={style.neutral} data-brand={style.brand} data-accent={style.accent}
-			data-solid={style.solid} data-solid-style={style.solidStyle}
-			data-theme={style.theme}
-			data-border={style.border}
-			data-surface={style.surface}
+			data-theme="light"
+			data-brand="pink"
+			data-accent="aqua"
+			data-neutral="gray"
+			data-border="rounded"
+			data-solid="color"
+			data-solid-style="plastic"
+			data-surface="filled"
 			data-transition={style.transition}
 			className={classNames(
 				primary.variable,
