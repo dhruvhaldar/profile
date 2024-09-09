@@ -10,7 +10,8 @@ import { baseURL, effects, home, person, style } from '@/app/resources'
 import { Inter } from 'next/font/google'
 import { Source_Code_Pro } from 'next/font/google';
 import { Montserrat } from 'next/font/google';
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { Metadata } from "next";
 
