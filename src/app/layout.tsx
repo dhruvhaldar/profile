@@ -71,7 +71,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children } : RootLayoutProps) {
 	return (
-		<Flex
+		<><><Flex
 			as="html" lang="en"
 			background="page"
 			data-theme="light"
@@ -88,19 +88,19 @@ export default function RootLayout({ children } : RootLayoutProps) {
 				secondary ? secondary.variable : '',
 				tertiary ? tertiary.variable : '',
 				code.variable)}>
-			<Flex style={{minHeight: '100vh'}}
+			<Flex style={{ minHeight: '100vh' }}
 				as="body"
 				fillWidth margin="0" padding="0"
 				direction="column">
 				<Background
 					gradient={effects.gradient}
 					dots={effects.dots}
-					lines={effects.lines}/>
+					lines={effects.lines} />
 				<Flex
 					fillWidth
 					minHeight="16">
 				</Flex>
-				<Header/>
+				<Header />
 				<Flex
 					zIndex={0}
 					fillWidth paddingY="l" paddingX="l"
@@ -113,8 +113,9 @@ export default function RootLayout({ children } : RootLayoutProps) {
 						</RouteGuard>
 					</Flex>
 				</Flex>
-				<Footer/>
+				<Footer />
 			</Flex>
 		</Flex>
-	);
+			<SpeedInsights /></><Analytics /></>	
+		);
 }
