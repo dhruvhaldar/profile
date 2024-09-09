@@ -9,7 +9,7 @@ const person = {
     },
     role:      'Aerospace Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Swedish']  // optional: Leave the array empty if you don't want to display languages
 }
 
@@ -71,7 +71,7 @@ const about = {
         title: 'Introduction',
         description: 
         <>
-            <p>Dhruv is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</p>
+            <p>Dhruv is a Bengaluru-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</p>
             <p>My work spans a diverse range of disciplines, from crafting <Link href="/work">intuitive digital interfaces</Link> to designing immersive interactive experiences. I’m particularly interested in the intersection of design and engineering, where aesthetics meet functionality. I believe that the best solutions arise from a balance of creativity and technical rigor, and I enjoy the challenge of finding that balance in every project I undertake.</p>
         </>
     },
