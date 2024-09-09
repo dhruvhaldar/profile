@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Aerospace Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    // location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Swedish']  // optional: Leave the array empty if you don't want to display languages
 }
 
@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/dhruvhaldar/',
     },
     {
         name: 'X',
