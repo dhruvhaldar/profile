@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 	},
 }
 
-const primary = Montserrat({
+const primary = Inter({
     variable: '--font-primary',
     subsets: ['latin'],
     display: 'swap'
