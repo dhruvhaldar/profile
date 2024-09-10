@@ -47,7 +47,7 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Aerospace Engineer, Optimization, CFD & Machine Learning Professional</>,
+    headline: <>Aerospace, Optimization, CFD & Machine Learning Professional</>,
     subline: <>I'm Dhruv, an Aerospace Engineer at <InlineCode>Sankhyasutra Labs</InlineCode>, designing CFD post-processing tools and custom Python modules, and testing with models like the Ahmed body, Eppler airfoil, and drivAer car.</>
 }
 
@@ -69,19 +69,20 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Dhruv is a Bengaluru-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. His work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>TODO</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'Sankhyasutra Labs Limited',
                 timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                role: 'Senior CFD Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Collaborated with a team of 10+ CFD software developers, contributing to the development of post-processing functions and performing tests using over 15 established test cases, including the drivAer car model, Ahmed body, and Eppler airfoil.</>,
+                    <>Developed 5+ customized modules in Python using Pyvista and Visualization Toolkit (VTK), optimizing performance and enhancing functionality by 80%.</>,
+                    <>Created 3 comprehensive product documentations using Sphinx, resulting in a 20% improvement in product usage efficiency for clients.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
