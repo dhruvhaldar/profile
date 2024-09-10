@@ -47,7 +47,7 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Aerospace, Optimization, CFD & Machine Learning Professional</>,
+    headline: <>Aerospace Engineer, Optimization, CFD & Machine Learning Professional</>,
     subline: <>I'm Dhruv, an Aerospace Engineer at <InlineCode>Sankhyasutra Labs</InlineCode>, designing CFD post-processing tools and custom Python modules, and testing with models like the Ahmed body, Eppler airfoil, and drivAer car.</>
 }
 
@@ -69,34 +69,36 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>TODO</>
+        description: <>Dhruv is a Bengaluru-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. His work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Sankhyasutra Labs Limited',
-                timeframe: 'December 2022 - Present',
-                role: 'Senior CFD Engineer (Aerospace)',
+                company: 'FLY',
+                timeframe: '2022 - Present',
+                role: 'Senior Design Engineer',
                 achievements: [
-                    <>Collaborated with a team of 10+ CFD software developers, contributing to the development of post-processing functions and performing tests using over 15 established test cases, including the drivAer car model, Ahmed body, and Eppler airfoil.</>,
-                    <>Developed 5+ customized modules in Python using Pyvista and Visualization Toolkit (VTK), optimizing performance and enhancing functionality by 80%.</>,
-                    <>Created 3 comprehensive product documentations using Sphinx, resulting in a 20% improvement in product usage efficiency for clients.</>
+                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
+                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Once UI Project',
+                        width: 16,
+                        height: 9
                     }
                 ]
             },
             {
-                company: 'SAAB AB',
-                timeframe: 'May 2020 - May 2021',
-                role: 'Examensarbete',
+                company: 'Creativ3',
+                timeframe: '2018 - 2022',
+                role: 'Lead Designer',
                 achievements: [
-                    <>Implemented an Ice Protection System (IPS) model in compliance with EASA CS-25 aviation standards.</>,
-                    <>Conducted aircraft programming automation using IronPython.</>,
-                    <>Evaluated the feasibility of electrifying conventional aircraft through the project outcome.</>
+                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
+                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
                 ],
                 images: [ ]
             }
@@ -107,12 +109,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'KTH Royal Institute of Technology',
-                description: <>Master of Science (M.Sc.) in Aerospace Engineering (Systems Track).</>,
+                name: 'University of Jakarta',
+                description: <>Studied software engineering.</>,
             },
             {
-                name: 'SRM Institute of Science and Technology',
-                description: <>Bachelor of Technology (B.Tech.) in Mechanical Engineering.</>,
+                name: 'Build the Future',
+                description: <>Studied online marketing and personal branding.</>,
             }
         ]
     },
@@ -121,29 +123,26 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Python',
-                description: <></>,
+                title: 'Figma',
+                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
                 images: [
                     {
-                        
+                        src: '/images/projects/project-01/cover-02.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
                     },
                     {
-                        
+                        src: '/images/projects/project-01/cover-03.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
                     },
                 ]
             },
             {
-                title: 'MATLAB',
-                description: <></>,
-                images: [
-                    {
-                    
-                    },
-                ]
-            },
-            {
-                title: 'GAMS',
-                description: <></>,
+                title: 'Next.js',
+                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-04.jpg',
@@ -177,13 +176,78 @@ const gallery = {
     label: 'Gallery',
     title: 'My photo gallery',
     description: `A photo collection by ${person.name}`,
+    // Images from https://pexels.com
     images: [
         { 
             src: '/images/gallery/img-01.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
-       
+        { 
+            src: '/images/gallery/img-02.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-03.jpg', 
+            alt: 'image',
+            orientation: 'vertical'
+        },
+        { 
+            src: '/images/gallery/img-04.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-05.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-06.jpg', 
+            alt: 'image',
+            orientation: 'vertical'
+        },
+        { 
+            src: '/images/gallery/img-07.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-08.jpg', 
+            alt: 'image',
+            orientation: 'vertical'
+        },
+        { 
+            src: '/images/gallery/img-09.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-10.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-11.jpg', 
+            alt: 'image',
+            orientation: 'vertical'
+        },
+        { 
+            src: '/images/gallery/img-12.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-13.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-14.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
     ]
 }
 
