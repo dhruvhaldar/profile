@@ -146,7 +146,10 @@ const about = {
                 description: <></>,
                 images: [
                     {
-                    
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
                     },
                 ]
             }
@@ -176,46 +179,11 @@ const gallery = {
     description: `A photo collection by ${person.name}`,
     images: [
         { 
-            
+            src: '/images/gallery/img-01.jpg', 
+            alt: 'image',
+            orientation: 'vertical'
         },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-           
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-            
-        },
-        { 
-                },
+       
     ]
 }
 
