@@ -78,9 +78,9 @@ export default function RootLayout({ children } : RootLayoutProps) {
 			
 			// Replace from Settings generator
 			data-theme="light"
-			data-brand="blue"
-			data-accent="cyan"
-			data-neutral="slate"
+			data-brand="custom"
+			data-accent="custom"
+			data-neutral="gray"
 			data-border="playful"
 			data-solid="contrast"
 			data-solid-style="flat"
