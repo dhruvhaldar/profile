@@ -74,20 +74,15 @@ export default function RootLayout({ children } : RootLayoutProps) {
 		<><><Flex
 			as="html" lang="en"
 			background="page"
-
-			
-			// Replace from Settings generator
 			data-theme="light"
-			data-brand="blue"
-			data-accent="cyan"
-			data-neutral="slate"
-			data-border="playful"
-			data-solid="contrast"
-			data-solid-style="flat"
+			data-brand="pink"
+			data-accent="aqua"
+			data-neutral="gray"
+			data-border="rounded"
+			data-solid="color"
+			data-solid-style="plastic"
 			data-surface="filled"
-			data-transition="all"
-
-
+			data-transition={style.transition}
 			className={classNames(
 				primary.variable,
 				secondary ? secondary.variable : '',
