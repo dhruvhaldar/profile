@@ -77,7 +77,7 @@ const about = {
         experiences: [
             {
                 company: 'Sankhyasutra Labs Limited',
-                timeframe: '2022 - Present',
+                timeframe: 'December 2022 - Present',
                 role: 'Senior CFD Engineer',
                 achievements: [
                     <>Collaborated with a team of 10+ CFD software developers, contributing to the development of post-processing functions and performing tests using over 15 established test cases, including the drivAer car model, Ahmed body, and Eppler airfoil.</>,
